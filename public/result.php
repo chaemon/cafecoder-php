@@ -50,6 +50,7 @@ echo_nav_card($_GET["contest_id"]);
                     "2"=>"java",
                     "3"=>"py",
                     "4"=>"cs",
+                    "6"=>"nim",
                 );
                 include_once("./call_api.php");
                 if (!preg_match("/^[0-9a-zA-Z]+$/", $_GET["code_session"])) {

@@ -20,6 +20,7 @@ $ext = array(
     "2"=>"java",
     "3"=>"py",
     "4"=>"cs",
+    "6"=>"nim",
 );
 
 $problem = array(

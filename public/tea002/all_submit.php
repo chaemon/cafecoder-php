@@ -125,6 +125,9 @@ if (strcmp($_SERVER['SERVER_NAME'], "localhost") == 0) {
                                     foreach (glob($noext_path . ".java") as $name) {
                                         $epath = $name;
                                     }
+                                    foreach (glob($noext_path . ".nim") as $name) {
+                                        $epath = $name;
+                                    }
                                     $result = new SplFileObject($noext_path . ".result");
                                     $result->setFlags(SplFileObject::READ_CSV);
                                     foreach ($result as $r) {
